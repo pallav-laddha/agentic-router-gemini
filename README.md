@@ -21,6 +21,7 @@ The notebook is adapted from [`hamzafarooq/multi-agent-course`](https://github.c
 Changes in this version:
 
 - Replaced OpenAI SDK and GPT model calls with the official `google-genai` SDK and Gemini.
+- Implements the assignment's sub-query division: compound questions are split and each part is routed and answered independently.
 - Reads `GEMINI_API_KEY` exclusively from Colab Secrets.
 - Corrected the cloned Qdrant data path to include the repository's `modules/` directory.
 - Uses Transformers' native Nomic implementation instead of incompatible remote model code, with the model revision pinned for reproducibility.
