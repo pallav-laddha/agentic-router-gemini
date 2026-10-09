@@ -23,6 +23,7 @@ Changes in this version:
 - Replaced OpenAI SDK and GPT model calls with the official `google-genai` SDK and Gemini.
 - Reads `GEMINI_API_KEY` exclusively from Colab Secrets.
 - Corrected the cloned Qdrant data path to include the repository's `modules/` directory.
+- Uses Transformers' native Nomic implementation instead of incompatible remote model code, with the model revision pinned for reproducibility.
 - Avoids deleting an existing `/content/multi-agent-course` directory.
 - Removed saved execution output and execution counts before publication.
 
