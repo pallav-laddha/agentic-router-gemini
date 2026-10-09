@@ -12,7 +12,7 @@ A Colab-ready adaptation of the Module 3 Agentic RAG notebook that uses Google's
 4. Optionally add `SERP_API_KEY` for queries routed to live internet search.
 5. Run the notebook from top to bottom.
 
-No API keys or other credentials are committed to this repository. The notebook uses `gemini-2.5-flash` by default and keeps the original local Nomic embedding model and Qdrant collections.
+No API keys or other credentials are committed to this repository. The notebook uses `gemini-3.8-flash` by default and keeps the original local Nomic embedding model and Qdrant collections.
 
 ## Source and changes
 
